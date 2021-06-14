@@ -1,0 +1,13 @@
+
+body {
+    margin: 0px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
