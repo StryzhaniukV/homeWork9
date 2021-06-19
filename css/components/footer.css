@@ -1,6 +1,6 @@
 footer {
-    background-color: #343332;
-    padding: 50px;
+    background-color: var(--main-color);
+    padding: 39px;
 }
 footer .left,
 footer .right {

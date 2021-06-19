@@ -1,32 +1,31 @@
 .main {
     margin-bottom: 100px;
 }
-.main-wrapper {
-    display: flex;
+.main .container:first-child {
     padding-bottom: 100px;
 }
-.main .main-wrapper .left,
-.main .main-wrapper .right {
+.main .left,
+.main .right {
     width: 50%;
 }
-.main .main-wrapper .right {
+.main .right {
     color: #727272;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 } 
-.main .main-wrapper .right p {
+.main .right p {
     line-height: 21px;
     
 }
-.main .main-wrapper .right .icon {
+.main .right .icon {
     width: 50%;
     padding: 0px 15px 15px 0px;
     box-sizing: border-box;
     font-size: 13px;
     font-family: sans-serif;
 }
-.main .main-wrapper .right .icon .text h4 {
+.main .right .icon .text h4 {
     margin-bottom: 18px;
     font-size: 17px;
     font-weight: bold;
@@ -35,14 +34,14 @@
     width: 30px;
     margin-bottom: 30px;
 }
-.main .main-wrapper .left h2 {
+.main .left h2 {
     margin-bottom: 50px;
     font-family: sans-serif;
     font-size: 40px;
     color: #595959;
     font-weight: 600;
 }
-.main .main-wrapper .left .btn {
+.main .left .btn {
     color: var(--details-color);
     font-weight: bold;
     text-decoration: none;
@@ -54,8 +53,15 @@
     font-family: sans-serif;
     width: 227px;
     text-align: center;
+    transition: background-color .5s;
 }
-.main .main-wrapper .left p {
+.main .left .btn:hover {
+    color: white;
+    border: 2px solid var(--details-color);
+    background-color: var(--details-color);
+
+}
+.main .left p {
     font-size: 14px;
     font-family: sans-serif;
     max-width: 500px;

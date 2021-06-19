@@ -28,6 +28,10 @@
     margin-right: 30px;
     border-radius: 5px;
     border: 0;
+    transition: box-shadow .8s;
+}
+.subscribe input:hover {
+        box-shadow: inset 0px 0px 37px -11px var(--details-color)
 }
 .subscribe button {
     color: white;
@@ -39,4 +43,9 @@
     width: 214px;
     height: 78px;
     border: 0;
+    transition: background-color .5s;
+}
+.subscribe button:hover {
+    color: var(--details-color);
+    background-color: white;
 }

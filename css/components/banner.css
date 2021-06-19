@@ -12,8 +12,13 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.banner .right img {
-    width: 100%;
+.banner .right iframe {
+
+    box-shadow: 0px 0px 150px -25px black;
+}
+.video-box {
+    display: flex;
+    justify-content: flex-end;
 }
 .banner .left h1 {
     margin: 0;
@@ -35,6 +40,7 @@
     color: white;
     font-weight: bold;
     text-decoration: none;
+    border: 2px solid var(--details-color);
     background-color: var(--details-color);
     padding: 20px 0px;
     display: inline-block;
@@ -42,4 +48,11 @@
     font-family: sans-serif;
     width: 227px;
     text-align: center;
+    transition: background-color .5s;
+}
+.banner .left a:hover {
+    color: var(--details-color);
+    border: 2px solid var(--details-color);
+    background-color: white;
+    
 }

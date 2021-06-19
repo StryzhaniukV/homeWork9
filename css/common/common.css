@@ -5,6 +5,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .container {
     max-width: var(--main-width);

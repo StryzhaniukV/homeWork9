@@ -3,7 +3,8 @@ header {
     background-color: var(--top-bg-color);
 }
 header nav {
-    background-color: #343333;
+    width: 100%;
+    background-color: var(--main-color);
 }
 header nav a {
     color: white;
@@ -17,10 +18,31 @@ header nav a {
 header nav a:hover {
     background-color: var(--details-color);
 }
-header nav ul {
+header nav ul:not(.dropdown) {
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
     justify-content: center;
+}
+header nav ul:not(.dropdown) li {
+    position: relative;
+}
+header nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--main-color);
+    width: 100%;
+
+}
+header nav ul li ul.dropdown li a {
+
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul li:hover ul.dropdown {
+    display: block;
+    top: 100%;
 }
