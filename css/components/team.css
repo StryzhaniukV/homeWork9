@@ -1,7 +1,7 @@
 .team {
     margin-bottom: 100px;
 }
-.team-header {
+.team .container .row:not(:last-child) {
     margin-bottom: 70px;
 }
 .team .team-header h2 {
@@ -30,7 +30,6 @@
 .team .team-photo {
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
     width: 100%;
 }
 .team .team-photo .left-side {

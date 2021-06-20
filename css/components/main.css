@@ -1,7 +1,7 @@
 .main {
     margin-bottom: 100px;
 }
-.main .container:first-child {
+.main .row {
     padding-bottom: 100px;
 }
 .main .left,
@@ -70,7 +70,5 @@
 }
 .long-line {
     background-color: #ececec;
-    width: 1250px;
     height: 2px;
-    margin: 0 auto;
 }

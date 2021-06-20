@@ -2,6 +2,9 @@ footer {
     background-color: var(--main-color);
     padding: 39px;
 }
+footer .row {
+    align-items: center;
+}
 footer .left,
 footer .right {
     width: 50%;
@@ -14,8 +17,6 @@ footer .left p {
     font-family: sans-serif;
     font-size: 12px;
     color: #bcbcbc;
-    display: inline-block;
-    vertical-align: sub;
 }
 .right .logo img {
     width: 33px;
